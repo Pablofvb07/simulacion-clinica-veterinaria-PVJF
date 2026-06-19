@@ -1,0 +1,29 @@
+/* src/index.css */
+
+/* 1. Reseteo global absoluto para eliminar bordes blancos del navegador */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0c111d !important; /* Fuerza el fondo ultra oscuro en toda la pantalla */
+  color: #f9fafb;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* 2. Limpieza del contenedor raíz de Vite/React */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0c111d;
+  display: block; 
+  margin: 0;
+  padding: 0;
+}
